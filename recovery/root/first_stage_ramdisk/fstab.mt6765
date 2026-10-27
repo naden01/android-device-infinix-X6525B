@@ -72,7 +72,6 @@ product /product ext4 ro wait,avb,logical,first_stage_mount,slotselect
 /dev/block/by-name/nvram /nvram emmc defaults defaults
 /dev/block/by-name/proinfo /proinfo emmc defaults defaults
 /dev/block/by-name/lk /bootloader emmc defaults defaults
-/dev/block/by-name/lk2 /bootloader2 emmc defaults defaults
 /dev/block/by-name/para /misc emmc defaults defaults
 
 /dev/block/by-name/boot /boot emmc defaults first_stage_mount,nofail,slotselect
@@ -88,41 +87,22 @@ product /product ext4 ro wait,avb,logical,first_stage_mount,slotselect
 /dev/block/by-name/expdb /expdb emmc defaults defaults
 /dev/block/by-name/seccfg /seccfg emmc defaults defaults
 
-/dev/block/by-name/tee1 /tee1 emmc defaults defaults
-/dev/block/by-name/tee2 /tee2 emmc defaults defaults
-
-
-/dev/block/by-name/scp1 /scp1 emmc defaults defaults
-/dev/block/by-name/scp2 /scp2 emmc defaults defaults
-
-
-/dev/block/by-name/sspm_1 /sspm_1 emmc defaults defaults
-/dev/block/by-name/sspm_2 /sspm_2 emmc defaults defaults
-
-
-
-
-/dev/block/by-name/md1img /md1img emmc defaults defaults
-/dev/block/by-name/md1dsp /md1dsp emmc defaults defaults
-/dev/block/by-name/md1arm7 /md1arm7 emmc defaults defaults
-/dev/block/by-name/md3img /md3img emmc defaults defaults
 
 
 
 
 
-/dev/block/by-name/gz1 /gz1 emmc defaults defaults
-/dev/block/by-name/gz2 /gz2 emmc defaults defaults
 
-/dev/block/by-name/spmfw /spmfw emmc defaults defaults
+
+
+
+
+
+
+
+
 
 /dev/block/by-name/boot_para /boot_para emmc defaults defaults
-/dev/block/by-name/odmdtbo /odmdtbo emmc defaults defaults
 /dev/block/by-name/dtbo /dtbo emmc defaults defaults
 
 /dev/block/by-name/vbmeta /vbmeta emmc defaults defaults
-
-
-
-
-/dev/block/by-name/tkv /tkv emmc defaults defaults
