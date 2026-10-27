@@ -107,6 +107,9 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service-recovery \
     android.hardware.gatekeeper@1.0-impl-recovery
 
+TARGET_RECOVERY_DEVICE_MODULES += \
+    libgatekeeper
+
 # libion & libxml2
 TARGET_RECOVERY_DEVICE_MODULES += \
     libion \

@@ -7,3 +7,7 @@ ro.sys.usb.storage.type=mtp
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.crypto.support_metadata_encrypt=true
+
+# TEE / Gatekeeper (needed to verify pattern/PIN when decrypting /data)
+ro.hardware.gatekeeper=trustonic
+ro.hardware.kmsetkey=trustonic
